@@ -172,4 +172,4 @@ function2()
 
 #Given the parameter someInt, the function can use the value stored in someInt.
 
-#NEEDS MORE CONCRETE EXAMPLE- WAIT FOR CLASS EXAMPLE
+#NEEDS MORE CONCRETE EXAMPLE. WAIT FOR CLASS EXAMPLE
