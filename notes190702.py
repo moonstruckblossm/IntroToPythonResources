@@ -38,6 +38,7 @@ num = 127
 almost127 = 126.99
 
 #You can NOT add a string and integer/float together, but you can make the integer into a string in order to add them.
+#We'll cover the following topic in more depth in Week 2's notes.
 
 print(int("500")) #This will produce 500.
 
