@@ -148,29 +148,3 @@ print(one > two) #This will produce False
 #You may use underscores in your variable name, but the underscore CANNOT be in the beginning of the variable.
 #Basically, all variable names MUST START WITH A LETTER.
 #In order to make your variable names more legible, you can use camelcase, in which each new word in your variable is
-
-
-
-#--FUNCTIONS--#
-
-#A function is <INSERT MORE CONCISE DEFINITION HERE>
-
-#This is how you establish a function!
-def function1():
-    print("Hi there!")
-    #All function code goes in here!
-function1()
-# ^ This is how you call a function that you have already established.
-
-#Call your main function that you create main().
-#Remember to call your functions if you want them to execute!
-
-
-#You can pass a value into a function for it to use. These values are called parameters.
-def function2(someInt):
-    print(someInt)
-function2()
-
-#Given the parameter someInt, the function can use the value stored in someInt.
-
-#NEEDS MORE CONCRETE EXAMPLE. WAIT FOR CLASS EXAMPLE
