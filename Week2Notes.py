@@ -108,3 +108,14 @@ function1()
 
 #You cannot call a function before it is defined! This will produce an error!
 #Python reads line-by-line. If a function call comes before a function, the program hasn't seen the declaration yet.
+
+
+
+#--FUNCTION PARAMETERS--#
+
+#To pass something to a function, you place it into the parentheses of the function's definition.
+#For example...
+
+def someFunc(name):
+    print("My name is "+name+"!")
+someFunc("Jimin") #This will produce "My name is Jimin!"
