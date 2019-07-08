@@ -50,7 +50,7 @@ print(floatVersion) #This will produce the float 4.0
 
 
 
-#--FUNCTIONS--#
+#--FUNCTIONS AND METHODS--#
 
 #Functions are sequences that may or may not return values.
 #An example of a function that does not return a value is print().
@@ -58,8 +58,9 @@ print(floatVersion) #This will produce the float 4.0
 #In order to return a value from a function make sure that you add a "return statement" (return()) at the end.
 
 #Examples of functions that do return something are the lower() and upper() function.
-#These functions will return uppercase and lowercase, respectively, versions of any string you give it
-#This function does NOT change the actual variable!
+#Lower() and upper() are METHODS of a string.
+#These methods will return uppercase and lowercase, respectively, versions of any string you give it
+#These methods do NOT change the actual variable!
 
 x = "hey everyone"
 xUpper = x.upper()
@@ -75,3 +76,35 @@ print(yLower) #This will produce "hey hey"
 
 y = y.lower()
 #Now, y is equal to "hey hey"
+
+#You can use the function dir() to find out all of an object's methods!
+print(dir(str)) #This will produce all methods of a string.
+#The functions with underscores in them are called with a superclass.
+
+#The word "str" in the dir function call is an ARGUMENT or PARAMETER.
+#This means that the function will use what you gave it when it executes.
+
+
+
+#--WRITING FUNCTIONS--#
+
+#In order to write a function, we must consider some things...
+
+'''
+-The function needs a name. 
+-The name cannot start with a number or underscore, but may contain them.
+-The function must be defined and called with parentheses.
+'''
+
+#Here is how you define a function!
+def function1():
+    #All of the function code goes in here! The code is indented.
+    #This is called "scope"
+    print("Henlo everyone!")
+
+#This comment, because of its indentation level, is not inside of the function definition!
+#Since we have declared this function, we can call it at any time.
+function1()
+
+#You cannot call a function before it is defined! This will produce an error!
+#Python reads line-by-line. If a function call comes before a function, the program hasn't seen the declaration yet.
