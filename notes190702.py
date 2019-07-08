@@ -1,5 +1,6 @@
 '''
-These are notes for what was done in class today. If anyone is confused, or has any feedback about these notes, feel
+These are notes for what was done in class during the first week of class (and also some of the second).
+If anyone is confused, or has any feedback about these notes, feel
 free to send me a message on Slack!
 '''
 
