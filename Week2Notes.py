@@ -183,7 +183,7 @@ if (a and b) or (not c):
 Notice how that code didn't execute?
 
 a is true, and b is false. This will produce false. c is true, and NOT c will produce false. Therefore, the statement
-false or false equals false, so the code inside will not execute.
+false or false is equal to false, so the code inside will not execute.
 '''
 
 if (a and not b) or (not c):
