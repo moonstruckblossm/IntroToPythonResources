@@ -119,3 +119,77 @@ function1()
 def someFunc(name):
     print("My name is "+name+"!")
 someFunc("Jimin") #This will produce "My name is Jimin!"
+
+#Here's the example we did in class.
+def editFunction(word):
+    name = "NCT " #This declares the word
+    name = name+word #This will ADD the word from the parameter to the word you already have, overwriting it.
+    return name #This returns the full word for you to use outside of the function
+print(editFunction("127")) #This will produce "NCT 127"
+
+
+
+#--MAIN FUNCTION--#
+
+
+def func1():
+    print("I am a function!")
+
+#The main function is where you will write most of the functionality of the program.
+#This function is called last in a program and will contain most of your program's functionality.
+#In main, you can call all other functions in any order that you want.
+
+#The way that you declare the main function is...
+
+def main():
+    print("Hello world!")
+    func1() #This will call func1()
+if __name__ == "__main__":
+    main()
+
+#You can call another function in your main too, as seen above.
+
+
+
+#--CONDITIONALS AND CONTROL LOGIC--#
+
+#A conditional, or an if/else/elif statement is something you can use in your program to operate with logic.
+
+#Here's how they work.
+
+'''
+IF = This will check if the following statement is true
+ELSE = This will be paired with an if statement, and will execute if the if statement was not true
+ELIF = This will be paired with an if statement, and will execute if the if statement was not true, and contains a
+statement. There can be multiple elifs in a chain of statements.
+
+AND = If one factor AND another are both true, the if statement will execute
+OR = If at least one factor OR the other is true, the if statement will execute
+NOT = If the opposite of all factors in the statement is true, the if statement will execute.
+'''
+
+#Just like in order of operations, operations in parentheses will execute first.
+
+#Here is an example.
+
+a = True
+b = False
+c = True
+
+if (a and b) or (not c):
+    print("I am false!") #This will not execute.
+
+'''
+Notice how that code didn't execute?
+
+a is true, and b is false. This will produce false. c is true, and NOT c will produce false. Therefore, the statement
+false or false equals false, so the code inside will not execute.
+'''
+
+if (a and not b) or (not c):
+    print("This one is true!") #This WILL execute!
+
+'''
+a is true, and b is false. NOT b is true, so true and true, equals true. If any factor of an OR statement is true, the
+whole statement is true. Therefore, the code will execute.
+'''
