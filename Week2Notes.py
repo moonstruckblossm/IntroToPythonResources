@@ -193,3 +193,6 @@ if (a and not b) or (not c):
 a is true, and b is false. NOT b is true, so true and true, equals true. If any factor of an OR statement is true, the
 whole statement is true. Therefore, the code will execute.
 '''
+
+
+#There are other operators, such as xor, nand, nor, etc., but those aren't important right now.
