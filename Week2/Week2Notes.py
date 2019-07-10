@@ -36,7 +36,7 @@ print(z) #This will produce 3
 aString = "127"
 bString = "4.0"
 
-#As you can see, this string is a number. This means that, through typecasting, you can make it an integer!
+#As you can see, these strings are numbers. This means that, through typecasting, you can make them an int and float!
 
 IntVersion = int(aString)
 floatVersion = float(bString)
@@ -46,7 +46,7 @@ print(IntVersion) #This will produce the integer 127
 print(floatVersion) #This will produce the float 4.0
 
 #Be mindful, however, that you cannot make string values into integers/floats UNLESS they are eligible.
-#What this means is that trying to make the string "cat" into an integer WILL not work.
+#What this means is that trying to make the string "cat" into an integer will NOT work.
 
 
 
@@ -88,7 +88,7 @@ print(dir(str)) #This will produce all methods of a string.
 
 #--WRITING FUNCTIONS--#
 
-#In order to write a function, we must consider some things...
+#In order to write a function, we must consider a few things...
 
 '''
 -The function needs a name. 
@@ -96,13 +96,14 @@ print(dir(str)) #This will produce all methods of a string.
 -The function must be defined and called with parentheses.
 '''
 
-#Here is how you define a function!
+#Here is how you define a function:
+
 def function1():
     #All of the function code goes in here! The code is indented.
     #This is called "scope"
     print("Henlo everyone!")
 
-#This comment, because of its indentation level, is not inside of the function definition!
+#The comment you are reading is not inside of the function definition because of its indentation level!
 #Since we have declared this function, we can call it at any time.
 function1()
 
@@ -116,9 +117,10 @@ function1()
 #To pass something to a function, you place it into the parentheses of the function's definition.
 #For example...
 
-def someFunc(name):
-    print("My name is "+name+"!")
+def someFunc(name): #The function is given a parameter "name"...
+    print("My name is "+name+"!") #This parameter is used to print the name.
 someFunc("Jimin") #This will produce "My name is Jimin!"
+
 
 #Here's the example we did in class.
 def editFunction(word):
@@ -200,12 +202,6 @@ whole statement is true. Therefore, the code will execute.
 
 
 
-#--LISTS AND TUPLES--#
-
-
-
-
-
 #--INPUT--#
 
 #In python, a user can input data into a program using the input function.
@@ -223,13 +219,3 @@ Save your inputs to a variable. That variable will contain whatever the user put
 The string inside of the input is a PROMPT. It is the question you want your user to answer!
 The answer goes into the console! Enter the answer on the same line 
 '''
-
-
-
-
-#--RANDOM--#
-
-
-
-
-#--LOOPS--#
