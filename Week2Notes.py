@@ -159,9 +159,10 @@ if __name__ == "__main__":
 
 '''
 IF = This will check if the following statement is true
-ELSE = This will be paired with an if statement, and will execute if the if statement was not true
-ELIF = This will be paired with an if statement, and will execute if the if statement was not true, and contains a
-statement. There can be multiple elifs in a chain of statements.
+ELSE = This will be paired with an if statement, and will execute if the if statement was not true. It is the final
+conditional in the chain.
+ELIF = This will be paired with an if statement, will execute if the if statement was not true, and contains a
+conditional. There can be multiple elifs in a chain of statements.
 
 AND = If one factor AND another are both true, the if statement will execute
 OR = If at least one factor OR the other is true, the if statement will execute
@@ -196,3 +197,39 @@ whole statement is true. Therefore, the code will execute.
 
 
 #There are other operators, such as xor, nand, nor, etc., but those aren't important right now.
+
+
+
+#--LISTS AND TUPLES--#
+
+
+
+
+
+#--INPUT--#
+
+#In python, a user can input data into a program using the input function.
+#Using input, you can save what a user enters as a variable to use later.
+#To do that, you can do this.
+
+name = input("Enter your name: ")
+
+#I always put a space at the end as a stylistic choice. It makes it neater.
+
+#Make sure to typecast your input if you need it to be some type other than a string!
+
+'''
+Save your inputs to a variable. That variable will contain whatever the user put in.
+The string inside of the input is a PROMPT. It is the question you want your user to answer!
+The answer goes into the console! Enter the answer on the same line 
+'''
+
+
+
+
+#--RANDOM--#
+
+
+
+
+#--LOOPS--#
