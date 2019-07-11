@@ -7,7 +7,7 @@ I've been working on this collection of notes since the beginning of this class,
 
 This repository contains notes about everything you need to know so far. 
 
-I have added comments and examples to help you better the material.
+I have added comments and examples to help you better understand the material.
 
 In addition, there are a few example programs that are from class activities that we have done.
 
