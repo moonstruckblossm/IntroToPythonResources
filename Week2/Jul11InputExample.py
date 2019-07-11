@@ -10,7 +10,13 @@ def get_age():
     return age
 
 def get_birth_year(age):
-    print(age)
+
+    #Get the current year
+    year = input("What year is it? ")
+    year = int(year)
+
+    #Find the birth year
+    birth_year = year-age
 
 def main():
     #Now we are going to get the user's name.
