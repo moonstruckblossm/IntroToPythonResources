@@ -11,4 +11,4 @@ I have added comments and examples to help you better understand the material.
 
 In addition, there are a few example programs that are from class activities that we have done.
 
-If anything is confusion, or you think my notes should be more clear, make sure to let me know!
+If anything is confusing or you think my notes should be more clear, make sure to let me know!
