@@ -9,4 +9,4 @@ I know, it would be more helpful for you to have notes, but, from now on, you're
 
 It will help you more to have the notes for yourself, and written in a way that you can quickly understand.
 
-Anyway, as always, my slack is, as always, open for questions.
+Anyway, as always, my slack is open for questions!
