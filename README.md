@@ -3,12 +3,10 @@ Notes for CodeWorks Intro to Python
 
 Hello, and welcome!
 
-I've been working on this collection of notes since the beginning of this class, and now I am finally able to share them with you all.
+This is now a collection of programs that we complete in class.
 
-This repository contains notes about everything you need to know so far. 
+I know, it would be more helpful for you to have notes, but, from now on, you're going to need to take your own notes.
 
-I have added comments and examples to help you better understand the material.
+It will help you more to have the notes for yourself, and written in a way that you can quickly understand.
 
-In addition, there are a few example programs that are from class activities that we have done.
-
-If anything is confusing or you think my notes should be more clear, make sure to let me know!
+Anyway, as always, my slack is, as always, open for questions.
