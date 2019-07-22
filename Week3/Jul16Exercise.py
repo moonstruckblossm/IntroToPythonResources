@@ -1,17 +1,31 @@
+'''
+This file contains the calculator activity that we did in Week 3.
+'''
 
+
+
+#First, let's make functions for each operation we want to include.
+
+#This one will add two numbers together.
 def addNums(num1, num2):
     return num1+num2
 
+
+#This one will subtract two numbers (it subtracts the second from the first)
 def subtractNums(num1, num2):
     return num1-num2
 
+#This one will multiply two numbers.
 def multiplyNums(num1, num2):
     return num1*num2
 
+#This one will divide two numbers (it divides the first by the second)
 def divideNums(num1, num2):
     return num1/num2
 
 
+
+#This is where we will call all of our functions.
 def main():
 
     #Let's first show the user what they can make the program do.
