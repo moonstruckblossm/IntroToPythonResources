@@ -17,11 +17,11 @@ We know three things about the password...
 2. There is a lowercase letter immediately afterward
 3. There are six digits
 
-We can use nested for loops to find the correct password. It will take some time, but it still works after a while.
+We can use nested for loops to find the correct password.
 '''
 
 
-#
+#Loop through both alphabets and all numbers in the range 1 to 1000000 to guess a list of passwords.
 for i in UPPER_ALPHABET:
     for j in LOWER_ALPHABET:
         for k in range(1000000):
